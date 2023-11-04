@@ -1,0 +1,61 @@
+# Archivos y directorios generados por Django
+__pycache__/
+*.pyc
+*.pyo
+db.sqlite3
+*.log
+*.pot
+
+# Carpeta de entorno virtual (si utilizas uno)
+venv/
+env/
+
+# Carpeta donde se almacenan los archivos estáticos recopilados
+staticfiles/
+
+# Archivo de configuración local (si tienes uno)
+local_settings.py
+
+# Archivo de configuración de desarrollo (si tienes uno)
+development_settings.py
+
+# Archivos de registro y caché (puedes personalizar esto)
+*.log
+__pycache__/
+cache/
+
+# Archivo de dependencias de Python (generado por pip)
+requirements.txt
+
+# Carpetas de archivos de usuario generados
+media/
+uploads/
+
+# Archivo de metadatos de editor
+.vscode/
+
+# Archivos temporales generados por la IDE (por ejemplo, PyCharm)
+.idea/
+
+# Archivos generados por sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de registro generados por Heroku
+heroku/
+*.heroku/
+
+# Carpeta de migraciones (si utilizas Django)
+*/migrations/
+
+# Carpetas generadas por administradores de paquetes
+node_modules/
+dist/
+build/
+
+# Archivos de historial de comando de shell
+.history
+
+# Archivos de configuración del sistema (por ejemplo, PyCharm)
+*.iml
+.idea/
