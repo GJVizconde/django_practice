@@ -1,6 +1,9 @@
-{% extends 'layouts/Base.html' %} {% block content %}
+{% extends 'layouts/Base.html' %} {% block content %} {% load static %}
 
 <h1>{{title}}</h1>
+
+<img src="{% static 'amigos.png' %}" alt="" width="100" />
+
 <p>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum modi molestias neque laboriosam
   dolore dolorem accusantium saepe, quae dicta, qui odio repellendus earum? Quod, dolor harum autem
